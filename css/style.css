@@ -49,7 +49,6 @@ p{
     width: calc((100% / 3) - 14px) ;
     float: left;
     margin: 7px;
-    line-height:calc( 120px / 3 );
     color: white;
     box-shadow:1px 1px 7px rgb(0, 0, 0 , 0.5); ;
 }
@@ -72,3 +71,12 @@ a{
     color: rgb(19, 133, 226);
 }
 
+
+.col_due{
+    float: left;
+    margin: 20px;
+}
+
+.inner_row{
+    margin: calc(10px / 3);
+}
