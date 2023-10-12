@@ -78,5 +78,5 @@ a{
 }
 
 .inner_row{
-    margin: calc(10px / 3);
+    line-height: calc(80px / 3);
 }
