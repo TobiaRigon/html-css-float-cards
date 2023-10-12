@@ -20,7 +20,6 @@ h1{
 
 /* main */
 main{
-    box-align: center;
     width: 85%;
     margin:40px auto;
 }
@@ -35,12 +34,14 @@ p{
 
 .row{
     margin-top: 30px;
+ 
 }
 
 .row::after{
     content: "";
     display: table;
     clear: both;
+    margin:2px
 }
 
 .col{
@@ -48,8 +49,25 @@ p{
     width: calc((100% / 3) - 14px) ;
     float: left;
     margin: 7px;
+    line-height:calc( 120px / 3 );
+    color: white;
+    box-shadow:1px 1px 7px rgb(0, 0, 0 , 0.5); ;
 }
 
+
 .avatar{
-    width: 30%;
+    float: left;
+    height:120px;
+    margin-right: 10px;
+}
+
+h5{
+    font-size:20px ;
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(19, 133, 226);
 }
